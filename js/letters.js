@@ -16,7 +16,24 @@ var counter = {
 }
 
 function countLetters(counter, sample_text){
-  // FIX ME
+  let allLowerCase = sample_text.toLowerCase()
+  // console.log(allLowerCase)
+
+  if(sample_text.length === 0){
+    return;
+  }
+    //debugger//
+  let characterSort = allLowerCase.charAt(allLowerCase.slice(1));
+
+ const sortedCounter = casecounter => key 
+   if (counter.hasOwnProperty(key)) {
+     return counter[key]++
+   }else{
+     return 
+
+   }
+  }
+  countLetters(counter, allLowerCase.slice(1))
 }
 
 $(document).ready(function(){
